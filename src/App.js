@@ -17,7 +17,7 @@ function App() {
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewSoftware?id=1511431212"
           target="_blank"
           rel="noopener noreferrer"
         >
