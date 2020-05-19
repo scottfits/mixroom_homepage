@@ -22,6 +22,13 @@ function App() {
           rel="noopener noreferrer"
         >
           <img src={appstore} className="Button" alt="appstore" />
+        </a>
+        <a
+          className="App-link"
+          href="https://play.google.com/store/apps/details?id=mixroom.app"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <img src={play} className="Button" alt="play" />
         </a>
       </header>
