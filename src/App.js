@@ -12,9 +12,10 @@ function App() {
 
         <h2>MIXROOM</h2>
         <p>
-          Email your songs to music@mixroom.app, and we'll save them for you in
-          our app.
+          Email your unreleased music to music@mixroom.app, and we'll save them
+          for you in the Mixroom app.
         </p>
+        <p>Share your tracks with friends and collaborators.</p>
         <a
           className="App-link"
           href="https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewSoftware?id=1511431212"
