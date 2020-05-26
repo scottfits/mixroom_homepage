@@ -45,7 +45,7 @@ const FeaturesTiles = ({
   const sectionHeader = {
     title: "Built for Artists and Fans",
     paragraph:
-      "Whether you are an emerging artist looking for early listeners and feedback or a die-hard fan looking for remixes of your favorite song, Mixroom has you covered.",
+      "Most artists only publish their best music. We are creating a place for the rough drafts and songs cut from the album.",
   };
 
   return (
@@ -74,8 +74,7 @@ const FeaturesTiles = ({
                     Send us your .wav or .mp3 to{" "}
                     <a href="mailto:music@mixroom.app">music@mixroom.app</a>, or{" "}
                     <a href="mailto:private@mixroom.app">private@mixroom.app</a>{" "}
-                    if you're stage shy! Don't worry about writing anything, we
-                    won't take it personally.
+                    for a private upload.
                   </p>
                 </div>
               </div>
@@ -97,11 +96,11 @@ const FeaturesTiles = ({
                   </div>
                 </div>
                 <div className="features-tiles-item-content">
-                  <h4 className="mt-0 mb-8 mt-16">Step 2: Magic Happens</h4>
+                  <h4 className="mt-0 mb-8 mt-16">Step 2: Listen in the app</h4>
                   <p className="m-0 text-sm">
-                    We'll process your track and store it for you in the app,
-                    ready to listen whenever! If you uploaded a private track,
-                    add a collaborator to give them access.
+                    We'll upload the track to the app, ready to listen whenever!
+                    If you uploaded a private track, add a collaborator to give
+                    them access.
                   </p>
                 </div>
               </div>
@@ -123,11 +122,12 @@ const FeaturesTiles = ({
                   </div>
                 </div>
                 <div className="features-tiles-item-content">
-                  <h4 className="mt-0 mb-8 mt-16">Step 3: Get Feedback</h4>
+                  <h4 className="mt-0 mb-8 mt-16">
+                    Step 3: Share and discover
+                  </h4>
                   <p className="m-0 text-sm">
-                    Mixroom users are hungry for new sounds! Uploading to
-                    Mixroom gives your track a great opportunity to be heard and
-                    commented on. Don't worry, we're a nice community!
+                    Find tracks from your favorite artists or discover new
+                    artists.
                   </p>
                 </div>
               </div>
