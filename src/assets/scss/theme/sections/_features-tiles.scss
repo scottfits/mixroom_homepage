@@ -1,6 +1,8 @@
 .features-tiles-item-image {
 	display: inline-flex;
-	padding: 5%;
 	border-radius: 50%;
+	width:50px;
+	padding:5%;
+	height:50px;
 	background-color: get-color(primary, 3);
 }
