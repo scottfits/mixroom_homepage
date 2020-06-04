@@ -43,9 +43,9 @@ const FeaturesTiles = ({
   );
 
   const sectionHeader = {
-    title: "Built for Artists and Fans",
+    title: "Built for Artists and Creators",
     paragraph:
-      "Most artists only publish their best music. We are creating a place for the rough drafts and songs cut from the album.",
+      "Find the missing piece to your track, or help someone else out!",
   };
 
   return (
@@ -59,7 +59,7 @@ const FeaturesTiles = ({
                 <div className="features-tiles-item-header">
                   <div className="features-tiles-item-image mb-16">
                     <Image
-                      src={require("./../../assets/images/music.svg")}
+                      src={require("./../../assets/images/attach_email.svg")}
                       alt=""
                       width={48}
                       height={48}
@@ -68,13 +68,12 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8 mt-16">
-                    Step 1: Send us your tracks!
+                    Easy music upload
                   </h4>
                   <p className="m-0 text-sm">
-                    Send us your .wav or .mp3 to{" "}
-                    <a href="mailto:music@mixroom.app">music@mixroom.app</a>, or{" "}
-                    <a href="mailto:private@mixroom.app">private@mixroom.app</a>{" "}
-                    for a private upload.
+                  Just send an email to{" "}
+                  <a href="mailto:music@mixroom.app">music@mixroom.app</a>, or{" "}
+                  <a href="mailto:private@mixroom.app">private@,</a>{" "} with your .wav or .mp3 attached, and we'll process it to store on our app—ready for you anytime!
                   </p>
                 </div>
               </div>
@@ -88,7 +87,7 @@ const FeaturesTiles = ({
                 <div className="features-tiles-item-header">
                   <div className="features-tiles-item-image mb-16">
                     <Image
-                      src={require("./../../assets/images/witch.svg")}
+                      src={require("./../../assets/images/mic-white.svg")}
                       alt=""
                       width={48}
                       height={48}
@@ -96,11 +95,9 @@ const FeaturesTiles = ({
                   </div>
                 </div>
                 <div className="features-tiles-item-content">
-                  <h4 className="mt-0 mb-8 mt-16">Step 2: Listen in the app</h4>
+                  <h4 className="mt-0 mb-8 mt-16">Record and share</h4>
                   <p className="m-0 text-sm">
-                    We'll upload the track to the app, ready to listen whenever!
-                    If you uploaded a private track, add a collaborator to give
-                    them access.
+                  Record song ideas in app and we'll save your recordings to the cloud. Plus, invite friends to listen and comment.
                   </p>
                 </div>
               </div>
@@ -114,7 +111,7 @@ const FeaturesTiles = ({
                 <div className="features-tiles-item-header">
                   <div className="features-tiles-item-image mb-16">
                     <Image
-                      src={require("./../../assets/images/video.svg")}
+                      src={require("./../../assets/images/group_add.svg")}
                       alt=""
                       width={48}
                       height={48}
@@ -123,15 +120,39 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8 mt-16">
-                    Step 3: Share and discover
+                    Collaborate & discover
                   </h4>
                   <p className="m-0 text-sm">
-                    Find tracks from your favorite artists or discover new
-                    artists.
+                    Find work in progress songs that are looking for vocals, guitar, production, or mixing. Meet other musicians and get inspired.
                   </p>
                 </div>
               </div>
             </div>
+
+            <div
+              className="tiles-item reveal-from-bottom"
+              data-reveal-delay="200"
+            >
+              <div className="tiles-item-inner">
+                <div className="features-tiles-item-header">
+                  <div className="features-tiles-item-image mb-16">
+                    <Image
+                      src={require("./../../assets/images/rate_review.svg")}
+                      alt=""
+                      width={48}
+                      height={48}
+                    />
+                  </div>
+                </div>
+                <div className="features-tiles-item-content">
+                  <h4 className="mt-0 mb-8 mt-16">Comment and critique</h4>
+                  <p className="m-0 text-sm">
+                  Comment your feedback, and even tag the time you want your comment to be at! (Let's fix the intro vocals at 0:32)
+                  </p>
+                </div>
+              </div>
+            </div>
+
           </div>
         </div>
       </div>

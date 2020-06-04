@@ -67,8 +67,7 @@ const Hero = ({
                 className="m-0 mb-32 reveal-from-bottom"
                 data-reveal-delay="400"
               >
-                Mixroom lets artists share unfinished tracks, song drafts, and
-                cuts that didn't make the album.
+                Mixroom is the ultimate music collaboration tool. Record ideas, share song concepts, get feedback, and discover songs looking for collaborators.
               </p>
               <div className="reveal-from-bottom" data-reveal-delay="600">
                 <ButtonGroup>
